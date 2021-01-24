@@ -17,8 +17,8 @@ jobs:
                 java-version: 1.8
 
             -name: Build with Gradle!
-                working-directory: .
-                run: ./gradlew build -x test
+            working-directory: .
+            run: ./gradlew build -x test
 
             - name: Run test, please!
             working-directory: .
