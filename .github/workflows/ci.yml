@@ -3,7 +3,7 @@ name: continuous-integration-example
 on:
     push:
         branches:
-                -master
+          - master
 
 jobs:
     build-and-test-please:
