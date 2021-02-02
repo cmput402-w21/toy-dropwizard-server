@@ -2,11 +2,13 @@ A minimal Dropwizard getting started project using Gradle. Use [shadowJar plugin
 
 To create a fat jar:
 
+
 ```
 ./gradlew shadowJar
 ```
 
 To run your application:
+
 
 ```
 java -jar build/libs/hello-friends-1.0-SNAPSHOT.jar server hello-world.yml
