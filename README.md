@@ -12,6 +12,7 @@ To run your application:
 
 ```
 java -jar build/libs/hello-friends-1.0-SNAPSHOT.jar server hello-world.yml
+abcdefghijkl
 ```
 
 To build and run your application:
